@@ -11,7 +11,9 @@ function Form() {
       status: "",
     },
     validationSchema: Yup.object({
-      username: Yup.string().required("Username is required"),
+      username: Yup.string()
+        .min(6, "userName must be greater than 8 character ")
+        .required(8, "Username is required"),
       email: Yup.string()
         .email("Invalid email address")
         .required("Email is required"),
