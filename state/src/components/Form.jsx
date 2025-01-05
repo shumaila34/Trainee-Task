@@ -18,6 +18,7 @@ const Form = () => {
           onChange={handleChange}
           placeholder="Name"
         />
+        <br />
         <input
           type="email"
           name="email"
@@ -25,6 +26,7 @@ const Form = () => {
           onChange={handleChange}
           placeholder="Email"
         />
+        <br />
         <button type="submit">Submit</button>
         <button type="button" onClick={clearFormData}>
           Clear

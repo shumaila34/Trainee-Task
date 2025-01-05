@@ -13,4 +13,3 @@ const App = () => {
 };
 
 export default App;
-// listen? sr ne abh bola k ne user ke value bhe krwane set srf counter walal kaam nhe krna i have create  aform ur uske liye alg store bnaya hai
