@@ -4,7 +4,8 @@ const About = () => {
   return (
     <div>
       <p>
-        we are alwasy ready to serve our customer ..Feel free to react out to us{" "}
+        we are alwasy ready to serve our Trainees
+        <p>Feel free to react out to us </p>
       </p>
     </div>
   );
