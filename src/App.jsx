@@ -6,4 +6,3 @@ const App = () => {
 };
 
 export default App;
-// ye mene sb krdia hai ab lkn still nhe chlrha dekho router k folder ur filename same nahe hona chaye kia?
